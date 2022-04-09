@@ -307,7 +307,7 @@ class SharedProcessMain extends Disposable {
 		// Localizations
 		services.set(ILocalizationsService, new SyncDescriptor(LocalizationsService));
 
-		// Diagnostics1234
+		// Diagnostics12345
 		services.set(IDiagnosticsService, new SyncDescriptor(DiagnosticsService));
 
 		// Settings Sync
