@@ -9,7 +9,7 @@ export function setup() {
 	describe('Terminal Editors', () => {
 		let terminal: Terminal;
 		let app: Application;
-		// Acquire automation API
+		// Acquire automation API 1
 		before(async function () {
 			app = this.app as Application;
 			terminal = app.workbench.terminal;
